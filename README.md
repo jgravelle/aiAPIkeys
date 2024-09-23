@@ -3,7 +3,8 @@
 
 **AI API Keys** is a powerful Chrome extension designed to simplify managing and copying API keys for various AI services. With just a few clicks, users can store their API keys, easily copy them to the clipboard, and even paste them directly into input fields on web pages. This extension streamlines API key management and improves productivity for developers, AI enthusiasts, and anyone working with multiple APIs.
 
-![AI API Keys Logo](path/to/logo-image.png)
+![image](https://github.com/user-attachments/assets/a187ac08-002d-40b7-b89f-dc4eb31a6ebe)
+
 
 ## Table of Contents
 - [Features](#features)
@@ -30,7 +31,8 @@
 - **Error Handling**: Safely handles permission errors and clipboard restrictions.
 - **Sync Across Devices**: Uses Chrome's storage API to sync API keys across devices.
   
-![Extension Preview](path/to/extension-preview-image.png)
+![image](https://github.com/user-attachments/assets/a976a070-5ec4-4e5f-bc77-dcd2fa4f9d5d)
+
 
 ## Installation
 
@@ -51,15 +53,11 @@ To install the extension locally and begin development, follow these steps:
 3. **Load the unpacked extension**:
    - Click on **Load unpacked** and select the folder where you cloned this repository.
 
-4. **Verify installation**:
+4. **Verify installation**:  
    - You should now see the extension icon in your Chrome toolbar.
 
-![Load Unpacked](path/to/load-unpacked-screenshot.png)
+![image](https://github.com/user-attachments/assets/f7412781-278d-4fa4-a0aa-9bb451553f86)
 
-### Chrome Web Store Installation
-
-You can also install the extension directly from the Chrome Web Store (coming soon):
-- [AI API Keys on Chrome Web Store](#)
 
 ## Usage
 
@@ -72,7 +70,7 @@ You can also install the extension directly from the Chrome Web Store (coming so
 
 Your API keys are now saved securely in Chrome's local storage.
 
-![Adding API Keys](path/to/adding-keys-screenshot.png)
+![image](https://github.com/user-attachments/assets/88cb2c47-34ef-465c-92af-537305dcb7a3)
 
 ### Copying API Keys
 
@@ -87,7 +85,6 @@ The extension attempts to paste the copied API key directly into an active input
 - If an input field (such as a text box or a textarea) is focused, the extension will paste the copied key automatically.
 - If no suitable input field is found, the key remains in the clipboard for manual pasting.
 
-![Copying and Pasting](path/to/copy-paste-screenshot.png)
 
 ## Configuration
 
