@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "aiAPIkeys",
+  "version": "1.0",
+  "description": "Manage and copy API keys for various AI services",
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "activeTab",
+    "scripting"  // <-- Add this permission
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
